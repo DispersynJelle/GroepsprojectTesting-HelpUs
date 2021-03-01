@@ -24,5 +24,13 @@ namespace GroepsprojectTesting_help_
         {
             InitializeComponent();
         }
+        
+        private void btnDel_Click(object sender, RoutedEventArgs e)
+        {
+            double dNr1 =Convert.ToDouble(txtNumber1.Text);
+            double dNr2 = Convert.ToDouble(txtNumber2.Text);
+            double dRes =dNr1 / dNr2;
+            lblResult.Content = dRes.ToString();
+        }
     }
 }

@@ -13,6 +13,7 @@
         <TextBox x:Name="txtNumber2" HorizontalAlignment="Left" Margin="181,129,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Result: " HorizontalAlignment="Left" Margin="525,116,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblResult" Content="(blank)" HorizontalAlignment="Left" Margin="578,116,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnDel" Content="Delen" HorizontalAlignment="Left" Margin="549,201,0,0" VerticalAlignment="Top" Click="btnDel_Click"/>
 
     </Grid>
 </Window>
