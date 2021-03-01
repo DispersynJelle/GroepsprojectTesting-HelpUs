@@ -23,6 +23,18 @@ namespace GroepsprojectTesting_help_
         public MainWindow()
         {
             InitializeComponent();
+
+        }
+
+        private void btnMultiply_Click(object sender, RoutedEventArgs e)
+        {
+            double dNr1 = Convert.ToDouble(txtNumber1.Text);
+
+            double dNr2 = Convert.ToDouble(txtNumber2.Text);
+
+            double dResult = dNr1 * dNr2;
+
+            lblResult.Content = dResult.ToString();
         }
 
         private void buttonMinus_Click(object sender, RoutedEventArgs e)
