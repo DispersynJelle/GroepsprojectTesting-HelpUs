@@ -24,5 +24,19 @@ namespace GroepsprojectTesting_help_
         {
             InitializeComponent();
         }
+
+        private void ButtonOptellen_Click(object sender, RoutedEventArgs e)
+        {
+            var getal1 = Convert.ToDouble(txtNumber1.Text);
+            var getal2 = Convert.ToDouble(txtNumber2.Text);
+
+            double Solution = getal1 + getal2;
+
+            lblResult.Content = Solution;
+            
+        }
     }
 }
+    
+    
+
