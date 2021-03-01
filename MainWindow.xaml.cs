@@ -24,5 +24,14 @@ namespace GroepsprojectTesting_help_
         {
             InitializeComponent();
         }
+
+        private void buttonMinus_Click(object sender, RoutedEventArgs e)
+        {
+            double Number1 = Convert.ToDouble(txtNumber1.Text);
+            double Number2 = Convert.ToDouble(txtNumber2.Text);
+            double Result = Number1 - Number2;
+
+            lblResult.Content = Result;
+        }
     }
 }
