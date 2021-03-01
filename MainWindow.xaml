@@ -13,6 +13,7 @@
         <TextBox x:Name="txtNumber2" HorizontalAlignment="Left" Margin="181,129,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Result: " HorizontalAlignment="Left" Margin="525,116,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblResult" Content="(blank)" HorizontalAlignment="Left" Margin="578,116,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="buttonMinus" Content="Minus" HorizontalAlignment="Left" Margin="253,303,0,0" VerticalAlignment="Top" Click="buttonMinus_Click"/>
         <Button x:Name="ButtonOptellen" Content="Optellen" HorizontalAlignment="Left" Margin="89,233,0,0" VerticalAlignment="Top" Click="ButtonOptellen_Click"/>
 
     </Grid>
